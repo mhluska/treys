@@ -39,6 +39,10 @@ class Card:
         'h': 2,  # hearts
         'd': 4,  # diamonds
         'c': 8,  # clubs
+        '\u2660': 1, # spades (unicode)
+        '\u2764': 2, # hearts (unicode)
+        '\u2666': 4, # diamonds (unicode)
+        '\u2663': 8, # clubs (unicode)
     }
     INT_SUIT_TO_CHAR_SUIT: str = 'xshxdxxxc'
 
