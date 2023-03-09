@@ -36,7 +36,7 @@ class Deck:
 
         # create the standard 52 card deck
         for rank in Card.STR_RANKS:
-            for suit, _ in Card.CHAR_SUIT_TO_INT_SUIT.items():
+            for suit in Card.STR_SUITS:
                 Deck._FULL_DECK.append(Card.new(rank + suit))
 
         return list(Deck._FULL_DECK)
